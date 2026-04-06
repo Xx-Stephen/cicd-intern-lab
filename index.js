@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello from CI/CD Lab!', status: 'ok' });
+  res.json({ message: 'Hello from CI/CD Lab! Version 2.0', status: 'ok' });
 });
 
 app.get('/health', (req, res) => {
